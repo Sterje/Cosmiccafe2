@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main {
+    background-image: url(img/back1.png);
+    background-position:top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    font-family: Oxanium;
+    color: #ffffff;
+    background-image: url(img/stars.jpg);
+    padding: 60px;
+    text-align: center;
+    
+}
+
+.navbar {
+    font-family: Oxanium;
+    display: flex;
+    color: #ffffff;
+    background-color: #334139;
+    box-shadow: 0 0 50px 15px #48abe0;
+}
+
+.navbar a {
+    color:#ffffff;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color:black;
+}
+
+
+.content {
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    /* background-image: url(img/back1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.text {
+    Width: 40%;
+    height: fit-content;
+    background: rgb(136, 250, 87, 0.5);
+    font-size: 20px;
+    font-family: arial;
+    padding: 10px;
+    line-height: 25px;
+    border: 1px solid rgb(136, 250, 87, 0.5);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+}
+
+.header h1 {
+    font-size: 4rem;
+}
+
+.text h2 {
+    font-size: 2rem;
+}
+
